@@ -1,0 +1,31 @@
+
+43
+30
+28
+29
+if (!id) {
+result. textContent = "Моля, въведи валидно ID!"; return;
+31
+}
+32
+33
+const person = people.find(p => p.id
+===
+id);
+34
+35
+36
+37
+38
+39
+}
+40
+}
+41
+if (person) {
+result.textContent = `ID: ${person.id} \nИme: ${person.name}\nBьзpaст: ${person.age}\n[paд: ${person.city}`; } else {
+result.textContent = "HяMа човек с това ID.";
+42
+</script>
+</body>
+</html>
